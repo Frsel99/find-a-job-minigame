@@ -21,5 +21,6 @@
         "prettier"
     ],
     "rules": {
+        "no-console": "warn"
     }
 }
