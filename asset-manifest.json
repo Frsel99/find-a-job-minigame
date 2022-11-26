@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/find-a-job-minigame/static/css/main.ea0cb664.css",
+    "main.js": "/find-a-job-minigame/static/js/main.6f16c48c.js",
+    "index.html": "/find-a-job-minigame/index.html",
+    "main.ea0cb664.css.map": "/find-a-job-minigame/static/css/main.ea0cb664.css.map",
+    "main.6f16c48c.js.map": "/find-a-job-minigame/static/js/main.6f16c48c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea0cb664.css",
+    "static/js/main.6f16c48c.js"
+  ]
+}
