@@ -27,8 +27,11 @@ jobs:
         run: npm run eslint
       - name: Unit Testing
         run: npm test
-      - name: Build Proyect
-        run: npm run build
+      - name: Build
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
   
