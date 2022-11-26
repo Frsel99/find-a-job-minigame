@@ -13,26 +13,18 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      # - uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
-      - name: Install Dependencies
-        run: npm install --no-audit --no-fund --no-optional
-      - name: Run Eslint
-        run: npm run eslint
-      - name: Unit Testing
-        run: npm test
-      - name: Build
+      - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-      - name: Upload Artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
   
   deploy:
