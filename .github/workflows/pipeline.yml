@@ -28,6 +28,7 @@ jobs:
   
   deploy:
     runs-on: ubuntu-latest
+    concurrency: ci-${{ github.ref }}
     steps:
       - name: Deploying to Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
