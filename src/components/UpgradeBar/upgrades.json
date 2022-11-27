@@ -1,0 +1,11 @@
+{
+  "upgrades": [
+    { "id": 1, "description": "aqui va la descripcion", "cost": 100 },
+    { "id": 2, "description": "aqui va la descripcion", "cost": 250 },
+    { "id": 3, "description": "aqui va la descripcion", "cost": 500 },
+    { "id": 4, "description": "aqui va la descripcion", "cost": 1000 },
+    { "id": 5, "description": "aqui va la descripcion", "cost": 5000 },
+    { "id": 6, "description": "aqui va la descripcion", "cost": 30000 },
+    { "id": 7, "description": "aqui va la descripcion", "cost": 100000 }
+  ]
+}

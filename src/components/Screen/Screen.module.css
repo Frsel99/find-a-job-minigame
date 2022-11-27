@@ -1,0 +1,63 @@
+:root {
+  --monitorHeight: 22.5rem;
+  --monitorWidth: 40rem;
+}
+
+.monitor {
+  background-color: #6d70a8;
+  font-size: 30px;
+  width: var(--monitorWidth);
+  height: var(--monitorHeight);
+  position: relative;
+  z-index: 1;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20%;
+  top: 40%;
+  transform: translateY(-50%) scale(1.5);
+}
+
+.monitor::before {
+  content: "";
+  display: block;
+  width: 8%;
+  height: 23%;
+  background-color: #4f5287;
+  position: absolute;
+  right: 50%;
+  bottom: -29.9%;
+  transform: translateX(50%) translateY(-30%);
+  border-bottom-left-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+  z-index: -1;
+}
+
+.monitor::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 2.8%;
+  background-color: #6d70a8;
+  position: absolute;
+  right: 50%;
+  bottom: -24.5%;
+  transform: translateX(50%);
+  z-index: -1;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.innerMonitor {
+  background-color: #111412;
+  width: calc(var(--monitorWidth) * 0.94);
+  height: calc(var(--monitorHeight) * 0.89);
+  border-radius: 0.2em;
+  border: 5px solid blue;
+  border-top: 5px solid #2e2957;
+  border-left: 5px solid #9c94c3;
+  border-right: 5px solid #d6dfe2;
+  border-bottom: 5px solid #fedeff;
+}
