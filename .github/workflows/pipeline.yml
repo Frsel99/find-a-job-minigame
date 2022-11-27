@@ -18,8 +18,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-           token: ${{ github.token }}
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Install Dependencies
