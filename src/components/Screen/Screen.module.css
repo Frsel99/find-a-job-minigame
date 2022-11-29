@@ -1,6 +1,8 @@
 :root {
   --monitorHeight: 22.5rem;
   --monitorWidth: 40rem;
+  --focusPointWidth: 8%;
+  --focusPointHeight: 15%;
 }
 
 .monitor {
@@ -72,9 +74,38 @@
   right: 5%;
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 15%;
+  z-index: 6;
 }
 
 .powerButtonOff:active {
   height: 0.5%;
   bottom: -0.5%;
+}
+
+.focusPoint {
+  position: absolute;
+  width: var(--focusPointWidth);
+  height: var(--focusPointHeight);
+  z-index: 3;
+  border-radius: 100%;
+  right: 10.8%;
+  bottom: 23%;
+  box-shadow: 0 0 5em 100em rgba(0, 0, 0, 0.93), 0 0 15em white, 0 0 20em white;
+  pointer-events: none;
+  transition: all 0.5s;
+}
+
+.focusPointOff {
+  position: absolute;
+  width: var(--focusPointWidth);
+  height: var(--focusPointHeight);
+  z-index: 3;
+  border-radius: 100%;
+  right: 10.25%;
+  bottom: 20.5%;
+  box-shadow: 0 0 5em 100em rgba(0, 0, 0, 0.93), 0 0 15em white, 0 0 20em white;
+  pointer-events: none;
+  transform: scale(25);
+  transition: all 2s;
+  visibility: hidden;
 }

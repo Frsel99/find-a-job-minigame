@@ -3,12 +3,18 @@ import styles from "./Screen.module.css";
 
 function Screen() {
   const [monitorState, setMonitorState] = useState(false);
+  const [focusStates, setFocusState] = useState(true);
 
   const turnMonitor = () => {
-    if (!monitorState) setMonitorState(true);
+    setTimeout(() => {
+      setMonitorState(true);
+      setFocusState(false);
+    }, 50);
   };
+
   return (
     <div>
+      <div className={focusStates ? styles.focusPoint : styles.focusPointOff} />
       <div className={styles.monitor}>
         <div className={styles.innerMonitor} />
         <div
@@ -17,12 +23,11 @@ function Screen() {
           className={
             monitorState ? styles.powerButtonOn : styles.powerButtonOff
           }
-          onClick={turnMonitor}
+          onMouseDown={turnMonitor}
           onKeyDown={turnMonitor}
           tabIndex={0}
         />
       </div>
-      <div> </div>
     </div>
   );
 }

@@ -1,11 +1,46 @@
 {
   "upgrades": [
-{ "id": 1, "description": "aqui va la descripcion", "cost": 100 },
-    { "id": 2, "description": "aqui va la descripcion", "cost": 250 },
-    { "id": 3, "description": "aqui va la descripcion", "cost": 500 },
-    { "id": 4, "description": "aqui va la descripcion", "cost": 1000 },
-    { "id": 5, "description": "aqui va la descripcion", "cost": 5000 },
-    { "id": 6, "description": "aqui va la descripcion", "cost": 30000 },
-    { "id": 7, "description": "aqui va la descripcion", "cost": 100000 }
+    {
+      "id": 1,
+      "description": "aqui va la descripcion",
+      "cost": 100,
+      "image": "#efd742"
+    },
+    {
+      "id": 2,
+      "description": "aqui va la descripcion",
+      "cost": 250,
+      "image": "#b549e3"
+    },
+    {
+      "id": 3,
+      "description": "aqui va la descripcion",
+      "cost": 500,
+      "image": "#65e1f1"
+    },
+    {
+      "id": 4,
+      "description": "aqui va la descripcion",
+      "cost": 1000,
+      "image": "#e7545a"
+    },
+    {
+      "id": 5,
+      "description": "aqui va la descripcion",
+      "cost": 5000,
+      "image": "#efd742"
+    },
+    {
+      "id": 6,
+      "description": "aqui va la descripcion",
+      "cost": 30000,
+      "image": "#b549e3"
+    },
+    {
+      "id": 7,
+      "description": "aqui va la descripcion",
+      "cost": 100000,
+      "image": "#65e1f1"
+    }
   ]
 }
