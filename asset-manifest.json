@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/find-a-job-minigame/static/css/main.ec4d1fcc.css",
-    "main.js": "/find-a-job-minigame/static/js/main.6840ce9d.js",
+    "main.css": "/find-a-job-minigame/static/css/main.0dd6b611.css",
+    "main.js": "/find-a-job-minigame/static/js/main.b0ed7628.js",
     "index.html": "/find-a-job-minigame/index.html",
-    "main.ec4d1fcc.css.map": "/find-a-job-minigame/static/css/main.ec4d1fcc.css.map",
-    "main.6840ce9d.js.map": "/find-a-job-minigame/static/js/main.6840ce9d.js.map"
+    "main.0dd6b611.css.map": "/find-a-job-minigame/static/css/main.0dd6b611.css.map",
+    "main.b0ed7628.js.map": "/find-a-job-minigame/static/js/main.b0ed7628.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec4d1fcc.css",
-    "static/js/main.6840ce9d.js"
+    "static/css/main.0dd6b611.css",
+    "static/js/main.b0ed7628.js"
   ]
 }
