@@ -10,6 +10,7 @@ function UpgradeBar() {
         {upgrades.upgrades &&
           upgrades.upgrades.map((el) => (
             <li className={styles.item} key={el.id}>
+              <div className={styles.itemImg} />
               <h3>Mejora {el.id}</h3>
               <p>{el.description}</p>
               <h4>
