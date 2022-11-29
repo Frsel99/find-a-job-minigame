@@ -61,3 +61,20 @@
   border-right: 5px solid #d6dfe2;
   border-bottom: 5px solid #fedeff;
 }
+
+.powerButtonOff,
+.powerButtonOn {
+  width: 3%;
+  height: 0.9%;
+  background-color: #4f5287;
+  position: absolute;
+  bottom: -0.9%;
+  right: 5%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+
+.powerButtonOff:active {
+  height: 0.5%;
+  bottom: -0.5%;
+}
