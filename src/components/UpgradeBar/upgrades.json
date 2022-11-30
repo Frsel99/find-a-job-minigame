@@ -9,38 +9,26 @@
     {
       "id": 2,
       "description": "aqui va la descripcion",
-      "cost": 250,
+      "cost": 500,
       "image": "#b549e3"
     },
     {
       "id": 3,
       "description": "aqui va la descripcion",
-      "cost": 500,
+      "cost": 1500,
       "image": "#65e1f1"
     },
     {
       "id": 4,
       "description": "aqui va la descripcion",
-      "cost": 1000,
+      "cost": 30000,
       "image": "#e7545a"
     },
     {
       "id": 5,
       "description": "aqui va la descripcion",
-      "cost": 5000,
+      "cost": 250000,
       "image": "#efd742"
-    },
-    {
-      "id": 6,
-      "description": "aqui va la descripcion",
-      "cost": 30000,
-      "image": "#b549e3"
-    },
-    {
-      "id": 7,
-      "description": "aqui va la descripcion",
-      "cost": 100000,
-      "image": "#65e1f1"
     }
   ]
 }

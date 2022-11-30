@@ -57,11 +57,29 @@
   width: calc(var(--monitorWidth) * 0.94);
   height: calc(var(--monitorHeight) * 0.89);
   border-radius: 0.2em;
-  border: 5px solid blue;
+  border: 5px solid #2e2957;
+  transition: border 3s;
+}
+
+.monitorOn {
   border-top: 5px solid #2e2957;
   border-left: 5px solid #9c94c3;
   border-right: 5px solid #d6dfe2;
   border-bottom: 5px solid #fedeff;
+}
+
+.backImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 3s ease;
+  pointer-events: none;
+  user-select: none;
+}
+
+.backImgOn {
+  opacity: 1;
 }
 
 .powerButtonOff,
@@ -108,4 +126,19 @@
   transform: scale(25);
   transition: all 2s;
   visibility: hidden;
+}
+
+.powerIcon {
+  position: absolute;
+  width: 1.8%;
+  height: auto;
+  bottom: 0.5%;
+  right: 5.6%;
+  filter: brightness(0);
+  transition: filter 3s ease;
+  background: none;
+}
+
+.powerIconOn {
+  filter: brightness(100%) drop-shadow(0 0 2px #65e1f1);
 }
