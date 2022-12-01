@@ -26,7 +26,6 @@ function Screen() {
 
   return (
     <div>
-      <div className={focusStates ? styles.focusPoint : styles.focusPointOff} />
       <div className={styles.monitor}>
         <div
           className={
@@ -68,7 +67,11 @@ function Screen() {
           onMouseDown={turnMonitor}
           onKeyDown={turnMonitor}
           tabIndex={0}
-        />
+        >
+          <div
+            className={focusStates ? styles.focusPoint : styles.focusPointOff}
+          />
+        </div>
       </div>
     </div>
   );
